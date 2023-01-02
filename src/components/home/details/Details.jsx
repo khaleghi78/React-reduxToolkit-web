@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useHistory, useParams } from 'react-router-dom'
-import { MdDeleteSweep, MdStarRate } from 'react-icons/md'
+import { MdStarRate } from 'react-icons/md'
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
 import { ADD, DELETE, REMOVE_INT } from '../../../controller/action'
 
